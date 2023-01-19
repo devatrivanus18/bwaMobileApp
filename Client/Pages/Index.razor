@@ -47,7 +47,7 @@
     <h3>Carousel</h3>
     <!-- NOTE: the data-bs- attributes added as per the Bootstrap v5.1 instructions -->
     <div id="@carouselName" class="carousel slide" data-bs-ride="carousel" data-bs-wrap="true" data-bs-interval="2000" data-bs-pause="false">
-        <div class="carousel-indicators">
+        @*<div class="carousel-indicators">
             @for (int i = 0; i < promos.Count; i++)
             {
                 if (i == 0)
@@ -62,7 +62,7 @@
                 }
 
             }
-        </div>
+        </div>*@
         <div class="carousel-inner">
 
             @foreach (var promo in promos)
